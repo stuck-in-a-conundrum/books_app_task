@@ -22,7 +22,7 @@ class DetailsPage extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text("name:"),
+                  const Text("Name :  "),
                   Text(
                     client.name,
                   ),
@@ -33,7 +33,7 @@ class DetailsPage extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text("company:"),
+                  const Text("Company :  "),
                   Text(client.company),
                 ],
               ),
@@ -42,7 +42,7 @@ class DetailsPage extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text("OrderId:"),
+                  const Text("Order Id :  "),
                   Text(client.orderId),
                 ],
               ),
@@ -51,7 +51,7 @@ class DetailsPage extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text("Invoice Paid:"),
+                  const Text("Invoice Paid :  "),
                   Text(client.invoicepaid),
                 ],
               ),
@@ -60,7 +60,7 @@ class DetailsPage extends StatelessWidget {
               ),
               Row(
                 children: [
-                  const Text("Invoice Pending:"),
+                  const Text("Invoice Pending :  "),
                   Text(client.invoicePending),
                 ],
               )

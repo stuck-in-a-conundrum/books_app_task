@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/books_app_task/BuildConfig.java
+ com.example.books_app_task.BuildConfig
